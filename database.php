@@ -1,7 +1,7 @@
 <?php
 
 try {
-    $conn = new PDO('mysql:host=localhost;port=8100;dbname=restaurant-TeamProject', 'root', '');
+    $conn = new PDO('mysql:host=localhost;port=8100;dbname=u2289897', 'root', '');
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   } 
   catch (PDOException $exception) {
